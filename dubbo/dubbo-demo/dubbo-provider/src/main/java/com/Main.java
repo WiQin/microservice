@@ -12,7 +12,8 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args) throws Exception{
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-mvc.xml");
+        System.out.println("init--");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring-mvc.xml");
         context.start();
         System.out.println("provider start");
         try {

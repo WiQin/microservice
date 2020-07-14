@@ -13,10 +13,7 @@
     <artifactId>dubbo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>dubbo-api</module>
-        <module>dubbo-provider</module>
-        <module>dubbo-consumer</module>
-
+        <module>dubbo-demo</module>
     </modules>
 
     <properties>

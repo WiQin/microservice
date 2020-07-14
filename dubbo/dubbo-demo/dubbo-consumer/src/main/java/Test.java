@@ -15,7 +15,8 @@ public class Test {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-mvc.xml");
         DemoService service = (DemoService) context.getBean("demoService");
 
-        service.doSomething("调用dubbo服务");
+        String result = service.doSomething("调用dubbo服务");
+        System.out.println(result);
         try {
             System.in.read();
         } catch (IOException e) {
