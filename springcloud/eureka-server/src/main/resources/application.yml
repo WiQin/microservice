@@ -7,10 +7,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:${server.port}/eureka
-    register-with-eureka: false #ÊÇ·ñ×¢²á×ÔÉí
-    registry-fetch-interval-seconds: 5 #ÖØĞÂÀ­È¥·şÎñÁĞ±íÊ±¼ä¼ä¸ô
+    register-with-eureka: false #æ˜¯å¦æ³¨å†Œè‡ªèº«
+    registry-fetch-interval-seconds: 5 #é‡æ–°æ‹‰å»æœåŠ¡åˆ—è¡¨æ—¶é—´é—´éš”
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
-    lease-expiration-duration-in-seconds: 90 #·şÎñÊ§Ğ§Ê±¼ä£¬Ä¬ÈÏÖµ90Ãë
-    lease-renewal-interval-in-seconds: 30 #·şÎñĞøÔ¼(renew)µÄ¼ä¸ô£¬Ä¬ÈÏÎª30Ãë
+    lease-expiration-duration-in-seconds: 90 #æœåŠ¡å¤±æ•ˆæ—¶é—´ï¼Œé»˜è®¤å€¼90ç§’
+    lease-renewal-interval-in-seconds: 30 #æœåŠ¡ç»­çº¦(renew)çš„é—´éš”ï¼Œé»˜è®¤ä¸º30ç§’
